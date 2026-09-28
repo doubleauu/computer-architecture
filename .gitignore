@@ -1,0 +1,23 @@
+# 临时文件与本地工具
+/tmp/
+~$*
+*.tmp
+*.log
+*.inspect.ndjson
+.DS_Store
+Thumbs.db
+
+# 本地凭据
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# 安装程序、模拟器二进制与运行产物
+*.exe
+*.dll
+*.bin
+
+# 超过 GitHub 单文件 100 MiB 限制的扫描教材
+/计算机系统结构实践教程最新版扫描--20260903.pdf
